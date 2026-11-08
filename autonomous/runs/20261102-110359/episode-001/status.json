@@ -1,0 +1,1 @@
+{"time": 1793598272.8655522, "phase": "DONE", "mode": "simulation_only", "observation_source": "Gazebo ground truth", "grasp": "simulated attachment", "sorted": ["black_box_01", "black_box_02", "white_box_01", "white_box_03", "black_box_03", "white_box_02"], "blocked": [], "counts": {"black": 3, "white": 3}, "policy_updates": 9}

@@ -1,0 +1,161 @@
+{
+  "timestamp_unix": 1792967313.8115866,
+  "calibrated": true,
+  "expected_side_mm": 20.0,
+  "side_tolerance_mm": 2.0,
+  "counts": {
+    "black": 2,
+    "white": 2
+  },
+  "objects": [
+    {
+      "colour": "black",
+      "center_px": [
+        119.49999237060547,
+        339.5
+      ],
+      "width_px": 79.55498504638672,
+      "length_px": 118.93279266357422,
+      "outline_px": [
+        [
+          143,
+          272
+        ],
+        [
+          66,
+          292
+        ],
+        [
+          96,
+          407
+        ],
+        [
+          173,
+          387
+        ]
+      ],
+      "measurement_unit": "mm",
+      "width_mm": 19.88874626159668,
+      "length_mm": 29.733198165893555,
+      "center_plane_mm": [
+        29.874998092651367,
+        84.875
+      ],
+      "closing_angle_plane_deg": 165.37912508671045,
+      "matches_20mm_side": true,
+      "frame_label": "black_1"
+    },
+    {
+      "colour": "black",
+      "center_px": [
+        120.0,
+        140.0
+      ],
+      "width_px": 80.0,
+      "length_px": 120.0,
+      "outline_px": [
+        [
+          80,
+          80
+        ],
+        [
+          80,
+          200
+        ],
+        [
+          160,
+          200
+        ],
+        [
+          160,
+          80
+        ]
+      ],
+      "measurement_unit": "mm",
+      "width_mm": 20.0,
+      "length_mm": 30.0,
+      "center_plane_mm": [
+        30.0,
+        35.0
+      ],
+      "closing_angle_plane_deg": 0.0,
+      "matches_20mm_side": true,
+      "frame_label": "black_2"
+    },
+    {
+      "colour": "white",
+      "center_px": [
+        339.5,
+        139.5
+      ],
+      "width_px": 78.29424285888672,
+      "length_px": 119.1302490234375,
+      "outline_px": [
+        [
+          329,
+          69
+        ],
+        [
+          279,
+          177
+        ],
+        [
+          350,
+          210
+        ],
+        [
+          400,
+          102
+        ]
+      ],
+      "measurement_unit": "mm",
+      "width_mm": 19.57356071472168,
+      "length_mm": 29.782562255859375,
+      "center_plane_mm": [
+        84.875,
+        34.875
+      ],
+      "closing_angle_plane_deg": 24.842383100636695,
+      "matches_20mm_side": true,
+      "frame_label": "white_1"
+    },
+    {
+      "colour": "white",
+      "center_px": [
+        340.0,
+        340.0
+      ],
+      "width_px": 80.0,
+      "length_px": 120.0,
+      "outline_px": [
+        [
+          300,
+          280
+        ],
+        [
+          300,
+          400
+        ],
+        [
+          380,
+          400
+        ],
+        [
+          380,
+          280
+        ]
+      ],
+      "measurement_unit": "mm",
+      "width_mm": 20.0,
+      "length_mm": 30.0,
+      "center_plane_mm": [
+        85.0,
+        85.0
+      ],
+      "closing_angle_plane_deg": 0.0,
+      "matches_20mm_side": true,
+      "frame_label": "white_2"
+    }
+  ],
+  "note": "Frame labels are not tracking IDs. Measurements require the calibrated pose and box-top plane."
+}

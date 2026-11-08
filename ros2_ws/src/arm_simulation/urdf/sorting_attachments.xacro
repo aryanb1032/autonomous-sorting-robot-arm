@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <gazebo>
+    <plugin filename="gz-sim-detachable-joint-system" name="gz::sim::systems::DetachableJoint">
+      <parent_link>gripper_palm</parent_link>
+      <child_model>white_box_01</child_model>
+      <child_link>body</child_link>
+      <attach_topic>/sorting/white_box_01/attach</attach_topic>
+      <detach_topic>/sorting/white_box_01/detach</detach_topic>
+      <output_topic>/sorting/white_box_01/state</output_topic>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="gz-sim-detachable-joint-system" name="gz::sim::systems::DetachableJoint">
+      <parent_link>gripper_palm</parent_link>
+      <child_model>black_box_01</child_model>
+      <child_link>body</child_link>
+      <attach_topic>/sorting/black_box_01/attach</attach_topic>
+      <detach_topic>/sorting/black_box_01/detach</detach_topic>
+      <output_topic>/sorting/black_box_01/state</output_topic>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="gz-sim-detachable-joint-system" name="gz::sim::systems::DetachableJoint">
+      <parent_link>gripper_palm</parent_link>
+      <child_model>black_box_02</child_model>
+      <child_link>body</child_link>
+      <attach_topic>/sorting/black_box_02/attach</attach_topic>
+      <detach_topic>/sorting/black_box_02/detach</detach_topic>
+      <output_topic>/sorting/black_box_02/state</output_topic>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="gz-sim-detachable-joint-system" name="gz::sim::systems::DetachableJoint">
+      <parent_link>gripper_palm</parent_link>
+      <child_model>white_box_02</child_model>
+      <child_link>body</child_link>
+      <attach_topic>/sorting/white_box_02/attach</attach_topic>
+      <detach_topic>/sorting/white_box_02/detach</detach_topic>
+      <output_topic>/sorting/white_box_02/state</output_topic>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="gz-sim-detachable-joint-system" name="gz::sim::systems::DetachableJoint">
+      <parent_link>gripper_palm</parent_link>
+      <child_model>black_box_03</child_model>
+      <child_link>body</child_link>
+      <attach_topic>/sorting/black_box_03/attach</attach_topic>
+      <detach_topic>/sorting/black_box_03/detach</detach_topic>
+      <output_topic>/sorting/black_box_03/state</output_topic>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="gz-sim-detachable-joint-system" name="gz::sim::systems::DetachableJoint">
+      <parent_link>gripper_palm</parent_link>
+      <child_model>white_box_03</child_model>
+      <child_link>body</child_link>
+      <attach_topic>/sorting/white_box_03/attach</attach_topic>
+      <detach_topic>/sorting/white_box_03/detach</detach_topic>
+      <output_topic>/sorting/white_box_03/state</output_topic>
+    </plugin>
+  </gazebo>
+</robot>

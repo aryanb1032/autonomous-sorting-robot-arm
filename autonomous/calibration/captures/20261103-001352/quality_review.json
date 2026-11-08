@@ -1,0 +1,27 @@
+{
+  "validated": false,
+  "views": 15,
+  "total_views": 45,
+  "fit_rms_px": 1.0379915187328534,
+  "inner_corner_bounds_px": [
+    [
+      51.19,
+      275.97
+    ],
+    [
+      588.5,
+      685.92
+    ]
+  ],
+  "image_size": [
+    1280,
+    720
+  ],
+  "observations": [
+    "More tilt variety than earlier batches",
+    "All inner corners still in left half of received image",
+    "Independent validation and robot registration missing"
+  ],
+  "next_capture_guide": "next_capture_guide.jpg",
+  "active_calibration_changed": false
+}

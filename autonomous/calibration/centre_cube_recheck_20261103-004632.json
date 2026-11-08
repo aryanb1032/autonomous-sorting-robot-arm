@@ -1,0 +1,28 @@
+{
+  "timestamp_unix": 1793646982.254516,
+  "validated": false,
+  "physical_control_enabled": false,
+  "objects": [
+    {
+      "expected_top_centre_mm": [
+        275,
+        0,
+        20
+      ],
+      "estimated_top_centre_mm": [
+        288.0391845703125,
+        -12.261117935180664,
+        20
+      ],
+      "error_xy_mm": [
+        13.0391845703125,
+        -12.261117935180664
+      ],
+      "position_error_mm": 17.898473322579346,
+      "width_mm": 18.043241500854492,
+      "length_mm": 19.648494720458984,
+      "passes_3mm_position_check": false
+    }
+  ],
+  "calibration_unchanged": true
+}

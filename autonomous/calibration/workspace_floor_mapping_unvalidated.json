@@ -1,0 +1,78 @@
+{
+  "validated": false,
+  "physical_control_enabled": false,
+  "coordinate_frame": "pickup_rectangle_local",
+  "plane_height_mm": 0,
+  "image_size": [
+    1280,
+    720
+  ],
+  "corner_labels": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "corners_raw_px": [
+    [
+      245.0,
+      183.0
+    ],
+    [
+      548.0,
+      195.0
+    ],
+    [
+      526.0,
+      627.0
+    ],
+    [
+      229.0,
+      614.0
+    ]
+  ],
+  "corners_local_mm": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      150.0,
+      0.0
+    ],
+    [
+      150.0,
+      220.0
+    ],
+    [
+      0.0,
+      220.0
+    ]
+  ],
+  "pixel_to_plane_mm": [
+    [
+      0.4746007667325989,
+      0.020445144878668386,
+      -117.57889808889848
+    ],
+    [
+      -0.021979958450186576,
+      0.4879917759940189,
+      -83.05502570219885
+    ],
+    [
+      -3.192308307304582e-05,
+      -2.990942257311022e-05,
+      1.0
+    ]
+  ],
+  "lens_source": "captures/combined_batches_1_2_3/intrinsics_unvalidated.json",
+  "corners_method": "manually selected from current live image",
+  "robot_registration": null,
+  "limitations": [
+    "Four-corner fit has no independent accuracy check",
+    "Lens fit provisional",
+    "20 mm cube-top compensation not yet applied",
+    "Base origin and heading not visible; robot transform not inferred"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "validated": false,
+  "total_captured_views": 30,
+  "second_batch_views": 15,
+  "second_batch_reprojection_rms_px": 1.4471832213675289,
+  "batch_focal_length_change_fraction": [
+    0.16328286385543644,
+    0.18445432543020845
+  ],
+  "second_batch_corner_bounds_px": [
+    [
+      120.45,
+      329.94
+    ],
+    [
+      652,
+      711.62
+    ]
+  ],
+  "image_size": [
+    1280,
+    720
+  ],
+  "concerns": [
+    "Centre-right and far right remain unsampled",
+    "Limited out-of-plane tilt; board mostly translated/rotated in plane",
+    "Some views have watermark over grid or grid near image edge",
+    "Independent accuracy and robot-plane registration remain undone"
+  ],
+  "active_calibration_changed": false
+}

@@ -1,0 +1,86 @@
+{
+  "stream_url": "http://PHONE_IP:4747/video",
+  "camera": "Redmi Note 13 fixed mount",
+  "requested_zoom": 0.6,
+  "reported_horizontal_offset_mm": 530,
+  "reported_height_mm": 470,
+  "cube_side_mm": 20,
+  "calibration_file": null,
+  "coordinate_frame": "robot_base",
+  "calibration_validated": false,
+  "stream_latency_validated": false,
+  "max_result_age_s": 1.0,
+  "max_independent_error_mm": 3.0,
+  "measured_independent_error_mm": null,
+  "pickup_polygon_mm": [
+    [
+      200,
+      110
+    ],
+    [
+      350,
+      110
+    ],
+    [
+      350,
+      -110
+    ],
+    [
+      200,
+      -110
+    ]
+  ],
+  "bins": {
+    "black": {
+      "center_mm": null,
+      "rim_height_mm": 42,
+      "inside_diameter_mm": 110,
+      "reported_diameter_mm": 120,
+      "reported_diameter_kind": "earlier overall diameter; inside opening separately confirmed 110 mm",
+      "photo_side": "right",
+      "reported_base_to_center_distance_mm": 400,
+      "base_to_center_distance_mm": 400,
+      "position_source_pending": "calibrated camera"
+    },
+    "white": {
+      "center_mm": null,
+      "rim_height_mm": 42,
+      "inside_diameter_mm": 110,
+      "reported_diameter_mm": 120,
+      "reported_diameter_kind": "earlier overall diameter; inside opening separately confirmed 110 mm",
+      "photo_side": "left",
+      "reported_base_to_center_distance_mm": 440,
+      "base_to_center_distance_mm": 440,
+      "position_source_pending": "calibrated camera"
+    }
+  },
+  "gripper_aperture_calibration_validated": false,
+  "physical_execution_enabled": false,
+  "workspace_measurements": {
+    "source": "User measurements and photo 2026-11-02 18:04:22",
+    "units": "mm",
+    "outer_rectangle": {
+      "length": 280,
+      "breadth": 560
+    },
+    "pickup_rectangle": {
+      "length": 150,
+      "breadth": 220
+    },
+    "bin_center_separation": 450,
+    "robot_relative_positions_measured": false,
+    "note": "Dimensions do not determine robot-relative coordinates. Length/breadth retained as supplied; no axis transform inferred from photo.",
+    "photo": "local measurement reference photo (not included)",
+    "reported_base_to_pickup_boundary_distance_mm": 200,
+    "boundary_distance_reference": "nearest pickup rectangle edge",
+    "base_distance_reference": "base rotation axis projected onto floor",
+    "distance_measurement_plane": "horizontal floor distance",
+    "user_confirmed_physical_reach": true,
+    "remaining_position_method": "Determine bin centres and pickup corners from calibrated camera; register base-axis floor point and robot forward direction. Use measured distances as independent consistency checks. Do not infer motor targets from uncalibrated photo.",
+    "pickup_alignment_confirmed": true,
+    "pickup_coordinate_convention": "x forward from base toward rectangle, y left looking forward, z up",
+    "pickup_alignment": "nearest 220 mm edge midpoint is 200 mm directly forward of base-axis floor point; rectangle depth 150 mm",
+    "physical_forward_axis_validation_pending": true
+  },
+  "candidate_calibration_file": "autonomous/calibration/robot_top_plane_candidate.json"
+}

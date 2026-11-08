@@ -1,0 +1,155 @@
+{
+  "geometry_revision": "2026-11-01-wrist-roll-pitch",
+  "mode": "virtual_box_empty_physical_gripper",
+  "box": "black_box_01",
+  "steps": [
+    {
+      "phase": "home",
+      "arm_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nominal_servo_deg": [
+        90.0,
+        90.0,
+        90.0,
+        90.0,
+        90.0
+      ],
+      "virtual_grasp_event": "open"
+    },
+    {
+      "phase": "approach",
+      "arm_rad": [
+        -0.36735573052299425,
+        0.12218014734313898,
+        1.1770052221538434,
+        0.0,
+        1.1768146305030178
+      ],
+      "nominal_servo_deg": [
+        68.95206706108723,
+        82.9995932169516,
+        157.43743169427307,
+        90.0,
+        157.42651159707037
+      ],
+      "virtual_grasp_event": null
+    },
+    {
+      "phase": "pickup",
+      "arm_rad": [
+        -0.36735573052299425,
+        0.381867433850675,
+        1.406308490312674,
+        0.0,
+        0.9118240758366511
+      ],
+      "nominal_servo_deg": [
+        68.95206706108723,
+        68.12060770686517,
+        170.57554118833065,
+        90.0,
+        142.24367120385682
+      ],
+      "virtual_grasp_event": "close_and_attach_virtual_box"
+    },
+    {
+      "phase": "lift",
+      "arm_rad": [
+        -0.36735573052299425,
+        0.12218014734313898,
+        1.1770052221538434,
+        0.0,
+        1.1768146305030178
+      ],
+      "nominal_servo_deg": [
+        68.95206706108723,
+        82.9995932169516,
+        157.43743169427307,
+        90.0,
+        157.42651159707037
+      ],
+      "virtual_grasp_event": null
+    },
+    {
+      "phase": "carry",
+      "arm_rad": [
+        -1.1784623977074662,
+        0.25024188384067625,
+        1.078301674925364,
+        0.0,
+        1.07745644123396
+      ],
+      "nominal_servo_deg": [
+        22.47907829649469,
+        75.66219619852626,
+        151.782135015111,
+        90.0,
+        151.7337066918913
+      ],
+      "virtual_grasp_event": null
+    },
+    {
+      "phase": "drop",
+      "arm_rad": [
+        -1.1784623977074662,
+        0.40764924664200597,
+        1.0812783998617637,
+        0.0,
+        1.0820723534962304
+      ],
+      "nominal_servo_deg": [
+        22.47907829649469,
+        66.64341864572552,
+        151.95268879073808,
+        90.0,
+        151.9981789831221
+      ],
+      "virtual_grasp_event": "open_and_detach_virtual_box"
+    },
+    {
+      "phase": "retreat",
+      "arm_rad": [
+        -1.1784623977074662,
+        0.25024188384067625,
+        1.078301674925364,
+        0.0,
+        1.07745644123396
+      ],
+      "nominal_servo_deg": [
+        22.47907829649469,
+        75.66219619852626,
+        151.782135015111,
+        90.0,
+        151.7337066918913
+      ],
+      "virtual_grasp_event": null
+    },
+    {
+      "phase": "home",
+      "arm_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nominal_servo_deg": [
+        90.0,
+        90.0,
+        90.0,
+        90.0,
+        90.0
+      ],
+      "virtual_grasp_event": null
+    }
+  ],
+  "status": "IK targets only; NOT collision-planned or executable",
+  "installed_firmware_compatible": false,
+  "gripper_mapping": "pending simulated aperture to empty physical gripper command mapping",
+  "physical_feedback": false
+}

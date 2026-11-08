@@ -1,0 +1,26 @@
+{
+  "validated": false,
+  "views": 15,
+  "rms_fit_px": 0.8201353035596282,
+  "inner_corner_bounds_px": [
+    [
+      76.02,
+      84.68
+    ],
+    [
+      546.9,
+      621.9
+    ]
+  ],
+  "image_size": [
+    1280,
+    720
+  ],
+  "concerns": [
+    "All detected grid corners are in left 43 percent of frame; centre and right not sampled",
+    "Views mostly face the camera with limited out-of-plane tilt",
+    "Independent metric validation and robot registration not performed"
+  ],
+  "next_capture": "Keep phone fixed. Move checkerboard across image centre and right; tilt toward/away and left/right, change distance. Hold full grid visible and briefly still.",
+  "active_calibration_changed": false
+}

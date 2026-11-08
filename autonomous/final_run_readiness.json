@@ -1,0 +1,21 @@
+{
+  "checked_at_unix": 1793674031.8803308,
+  "controller_detected": true,
+  "serial_device": "/dev/serial/by-id/<CP2102-device>",
+  "firmware_identity": "VIRTUAL_PICK_HOME90_V2",
+  "reported_state": "STATE 1 0 0 0 0 0 1.570796",
+  "interpretation": "enabled; commanded arm q=0 (servo home 90 deg), gripper q=pi/2 (servo home 90 deg). Estimated command state; no encoders.",
+  "servo_power_was_off_per_user": true,
+  "queries_sent": [
+    "INFO",
+    "STATE"
+  ],
+  "movement_commands_sent": false,
+  "full_autonomous_camera_sorting_ready": false,
+  "blocking_items": [
+    "No implemented camera-observation to physical-motion sorting controller",
+    "Bin centres in robot-base coordinates are unset",
+    "Candidate camera mapping failed independent position check by 6.9 mm"
+  ],
+  "next_safe_project_step": "Do not start an unvalidated camera-guided physical sort. Keep this verified firmware and complete physical executor/bin registration before any task movement."
+}

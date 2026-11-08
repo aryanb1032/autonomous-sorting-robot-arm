@@ -1,0 +1,69 @@
+{
+  "calibrated": false,
+  "port": "",
+  "joint_names": [
+    "joint_1",
+    "joint_2",
+    "joint_3",
+    "joint_4",
+    "joint_5",
+    "gripper_joint"
+  ],
+  "initial_rad": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "limits": {
+    "joint_1": [
+      -1,
+      1
+    ],
+    "joint_2": [
+      -1,
+      1
+    ],
+    "joint_3": [
+      -1,
+      1
+    ],
+    "joint_4": [
+      -1,
+      1
+    ],
+    "joint_5": [
+      -1,
+      1
+    ],
+    "gripper_joint": [
+      -1,
+      1
+    ]
+  },
+  "max_velocity": {
+    "joint_1": 0.5,
+    "joint_2": 0.5,
+    "joint_3": 0.5,
+    "joint_4": 0.5,
+    "joint_5": 0.5,
+    "gripper_joint": 0.5
+  },
+  "geometry_revision": "2026-10-29-final-dimensions",
+  "gripper_model_joint": "gripper_hinge_joint",
+  "gripper_mimic_joint": "gripper_hinge_mimic",
+  "gripper_finger_length_m": 0.07,
+  "gripper_width_table": [
+    [
+      -1,
+      0.016
+    ],
+    [
+      1,
+      0.07
+    ]
+  ],
+  "note": "Synthetic mock-only calibration, never upload or use on the real arm"
+}

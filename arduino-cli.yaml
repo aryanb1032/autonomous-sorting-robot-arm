@@ -1,0 +1,6 @@
+board_manager:
+  additional_urls:
+    - https://espressif.github.io/arduino-esp32/package_esp32_index.json
+network:
+  connection_timeout: 30s
+# Configure Arduino CLI directories on your computer; do not commit local caches.

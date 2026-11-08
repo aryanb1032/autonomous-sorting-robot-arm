@@ -1,0 +1,59 @@
+{
+  "purpose": "Servo-angle bench commissioning only; not URDF joint calibration",
+  "power_verified": true,
+  "servo_rail_voltage": 6.5,
+  "oe_wired_verified": true,
+  "home_degrees": 90,
+  "trial_degrees": [
+    90,
+    92,
+    90
+  ],
+  "speed_degrees_per_second": 2,
+  "channels": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+  ],
+  "roles": [
+    "base",
+    "shoulder",
+    "elbow",
+    "wrist_pitch",
+    "wrist_rotation",
+    "gripper"
+  ],
+  "pulse_ranges_us": [
+    [
+      500,
+      2500
+    ],
+    [
+      500,
+      2500
+    ],
+    [
+      500,
+      2500
+    ],
+    [
+      500,
+      2500
+    ],
+    [
+      500,
+      2500
+    ],
+    [
+      1000,
+      2300
+    ]
+  ],
+  "servo_range_degrees": [
+    0,
+    180
+  ]
+}

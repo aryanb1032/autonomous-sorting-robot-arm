@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "exit_code": 1,
+  "status": {
+    "time": 1793605557.2953086,
+    "phase": "STOPPED",
+    "reason": "Operator STOP requested"
+  },
+  "run_dir": "/path/to/robot-arm-project/autonomous/runs/20261102-131540/episode-001"
+}

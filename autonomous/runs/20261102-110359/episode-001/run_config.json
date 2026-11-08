@@ -1,0 +1,6 @@
+{
+  "seed": 42,
+  "per_color": 3,
+  "learn": true,
+  "physical_control": false
+}

@@ -1,0 +1,33 @@
+{
+  "validated": false,
+  "physical_control_enabled": false,
+  "test": "User-placed cube at measured rectangle centre",
+  "timestamp_unix": 1793646751.0178401,
+  "objects": [
+    {
+      "colour": "white",
+      "expected_top_centre_mm": [
+        275,
+        0,
+        20
+      ],
+      "estimated_top_centre_mm": [
+        268.052978515625,
+        -11.210722923278809,
+        20
+      ],
+      "error_xy_mm": [
+        -6.947021484375,
+        -11.210722923278809
+      ],
+      "position_error_mm": 13.188685149282197,
+      "estimated_width_mm": 18.0969181060791,
+      "estimated_length_mm": 20.352916717529297,
+      "passes_3mm_position_check": false
+    }
+  ],
+  "notes": [
+    "Do not refit using this check point before resolving placement/reference error.",
+    "Candidate calibration and threshold contour are provisional."
+  ]
+}

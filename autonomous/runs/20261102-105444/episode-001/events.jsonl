@@ -1,0 +1,6 @@
+{"time": 1793597099.0833175, "phase": "INITIALIZE", "observation_source": "Gazebo ground truth", "physical_control": false, "learning_scope": "sorting order only"}
+{"time": 1793597102.8327334, "phase": "SELECT", "object": "white_box_01", "color": "white", "strategy": 0}
+{"time": 1793597102.8774478, "phase": "APPROACH"}
+{"time": 1793597131.2978795, "phase": "DESCEND"}
+{"time": 1793597139.2593944, "phase": "GRASP", "object": "white_box_01"}
+{"time": 1793597151.0418572, "phase": "STOPPED", "reason": "Gazebo execution failed Aborted due to goal_time_tolerance exceeding by 3.003000 seconds"}

@@ -1,0 +1,69 @@
+{
+  "geometry_revision": "2026-10-29-final-dimensions",
+  "mode": "scripted_attachment_sorting",
+  "vision_used": false,
+  "reinforcement_learning_used": false,
+  "seed": 42,
+  "results": [
+    {
+      "box": "white_box_01",
+      "bin": "white",
+      "position_m": [
+        0.11913876980543137,
+        0.2536580562591553,
+        0.014999978244304657
+      ],
+      "verified": true
+    },
+    {
+      "box": "black_box_01",
+      "bin": "black",
+      "position_m": [
+        0.12077485024929047,
+        -0.288341760635376,
+        0.014999978244304657
+      ],
+      "verified": true
+    },
+    {
+      "box": "black_box_02",
+      "bin": "black",
+      "position_m": [
+        0.15528690814971924,
+        -0.28639665246009827,
+        0.014999965205788612
+      ],
+      "verified": true
+    },
+    {
+      "box": "white_box_02",
+      "bin": "white",
+      "position_m": [
+        0.15549439191818237,
+        0.25354090332984924,
+        0.014999978244304657
+      ],
+      "verified": true
+    },
+    {
+      "box": "black_box_03",
+      "bin": "black",
+      "position_m": [
+        0.13721346855163574,
+        -0.24932971596717834,
+        0.014999978244304657
+      ],
+      "verified": true
+    },
+    {
+      "box": "white_box_03",
+      "bin": "white",
+      "position_m": [
+        0.13749587535858154,
+        0.2904851734638214,
+        0.014999949373304844
+      ],
+      "verified": true
+    }
+  ]
+}

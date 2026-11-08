@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+<rect width="210" height="297" fill="white"/>
+<rect x="5" y="50" width="25" height="25" fill="black"/>
+<rect x="55" y="50" width="25" height="25" fill="black"/>
+<rect x="105" y="50" width="25" height="25" fill="black"/>
+<rect x="155" y="50" width="25" height="25" fill="black"/>
+<rect x="30" y="75" width="25" height="25" fill="black"/>
+<rect x="80" y="75" width="25" height="25" fill="black"/>
+<rect x="130" y="75" width="25" height="25" fill="black"/>
+<rect x="180" y="75" width="25" height="25" fill="black"/>
+<rect x="5" y="100" width="25" height="25" fill="black"/>
+<rect x="55" y="100" width="25" height="25" fill="black"/>
+<rect x="105" y="100" width="25" height="25" fill="black"/>
+<rect x="155" y="100" width="25" height="25" fill="black"/>
+<rect x="30" y="125" width="25" height="25" fill="black"/>
+<rect x="80" y="125" width="25" height="25" fill="black"/>
+<rect x="130" y="125" width="25" height="25" fill="black"/>
+<rect x="180" y="125" width="25" height="25" fill="black"/>
+<rect x="5" y="150" width="25" height="25" fill="black"/>
+<rect x="55" y="150" width="25" height="25" fill="black"/>
+<rect x="105" y="150" width="25" height="25" fill="black"/>
+<rect x="155" y="150" width="25" height="25" fill="black"/>
+<rect x="30" y="175" width="25" height="25" fill="black"/>
+<rect x="80" y="175" width="25" height="25" fill="black"/>
+<rect x="130" y="175" width="25" height="25" fill="black"/>
+<rect x="180" y="175" width="25" height="25" fill="black"/>
+<text x="10" y="225" font-size="4">25 mm squares; 7 x 5 inner corners. Print at 100%.</text>
+<text x="10" y="233" font-size="4">Measure a square with a ruler before calibration.</text></svg>

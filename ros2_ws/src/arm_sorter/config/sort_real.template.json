@@ -1,0 +1,24 @@
+{
+  "execution_verified": false,
+  "planning_group": "arm",
+  "tool_link": "tool0",
+  "gripper_joint": "gripper_hinge_joint",
+  "poses": {
+    "observation": null,
+    "black_bin": null,
+    "white_bin": null
+  },
+  "workspace_bounds_m": null,
+  "grasp_tool_z_m": null,
+  "approach_clearance_m": null,
+  "jaw_clearance_m": null,
+  "grip_compression_m": null,
+  "release_width_m": null,
+  "jaw_calibration_width_rad": null,
+  "downward_quaternion_xyzw": null,
+  "jaw_yaw_offset_rad": null,
+  "gripper_command_units": "hinge_radians",
+  "jaw_opening_limits_m": null,
+  "gripper_finger_length_m": 0.07,
+  "geometry_revision": "2026-10-29-final-dimensions"
+}

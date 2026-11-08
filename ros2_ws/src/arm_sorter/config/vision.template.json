@@ -1,0 +1,23 @@
+{
+  "calibrated": false,
+  "detector": "controlled_background",
+  "weights": "",
+  "allowed_classes": [
+    "box",
+    "black_box",
+    "white_box"
+  ],
+  "confidence": 0.7,
+  "image_size": [
+    640,
+    480
+  ],
+  "camera_matrix": null,
+  "dist_coeffs": null,
+  "pixel_to_base_homography": null,
+  "workspace_bounds_m": null,
+  "width_range_m": null,
+  "black_max": 80,
+  "white_min": 175,
+  "min_area_px": 500
+}

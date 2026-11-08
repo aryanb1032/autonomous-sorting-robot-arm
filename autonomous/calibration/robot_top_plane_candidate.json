@@ -1,0 +1,121 @@
+{
+  "image_size": [
+    1280,
+    720
+  ],
+  "camera_matrix": [
+    [
+      906.120905568277,
+      0.0,
+      697.4800514891575
+    ],
+    [
+      0.0,
+      905.5903997533184,
+      340.52200545968543
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "dist_coeffs": [
+    -0.03497644081140513,
+    -0.1208718617915081,
+    -0.00032270575269969777,
+    -0.0034992626075923657,
+    0.13731265218594924
+  ],
+  "reprojection_rms_px": 1.1276005376543958,
+  "views_used": 45,
+  "validated": false,
+  "physical_control_enabled": false,
+  "coordinate_frame": "robot_base",
+  "plane_height_mm": 20,
+  "pixel_to_plane_mm": [
+    [
+      0.4363301431001608,
+      0.016250585096163086,
+      96.68620739839896
+    ],
+    [
+      0.019668666931722773,
+      -0.46515719652050996,
+      183.51714151246546
+    ],
+    [
+      -6.727812342904073e-05,
+      -1.5343685340297427e-05,
+      1.0
+    ]
+  ],
+  "robot_corner_coordinates_mm": [
+    [
+      200.0,
+      110.0,
+      0.0
+    ],
+    [
+      350.0,
+      110.0,
+      0.0
+    ],
+    [
+      350.0,
+      -110.0,
+      0.0
+    ],
+    [
+      200.0,
+      -110.0,
+      0.0
+    ]
+  ],
+  "corner_pixels_raw": [
+    [
+      245.0,
+      183.0
+    ],
+    [
+      548.0,
+      195.0
+    ],
+    [
+      526.0,
+      627.0
+    ],
+    [
+      229.0,
+      614.0
+    ]
+  ],
+  "camera_position_robot_mm": [
+    400.1232686005944,
+    46.08144426628541,
+    463.3420843586646
+  ],
+  "rvec": [
+    -3.1259680778022365,
+    -0.07603867117942453,
+    -0.10097282372164652
+  ],
+  "tvec_mm": [
+    -430.8103077821684,
+    19.980910169639017,
+    436.93392939499245
+  ],
+  "floor_corner_fit_errors_px": [
+    2.6057076006898248,
+    2.3405504967459625,
+    0.30617378829488007,
+    1.2318835430065265
+  ],
+  "registration_basis": "User confirmed nearest 220 mm edge centred 200 mm forward of base-axis floor point; 150 mm rectangle depth",
+  "limitations": [
+    "Lens model provisional; no independent 20 mm-plane metric validation",
+    "Forward survey axis must be checked against physical arm/URDF forward direction",
+    "Camera mount/lens/resolution must remain unchanged",
+    "Bin coordinates unresolved; not enabled for motor execution"
+  ]
+}

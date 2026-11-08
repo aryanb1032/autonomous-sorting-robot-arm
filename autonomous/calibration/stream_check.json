@@ -1,0 +1,17 @@
+{
+  "stream_url": "http://PHONE_IP:4747/video",
+  "frames_received": 3,
+  "image_size": [
+    1280,
+    720
+  ],
+  "calibrated": false,
+  "physical_control_enabled": false,
+  "observations": [
+    "Pickup rectangle visible",
+    "Bins and robot base not fully visible",
+    "DroidCam watermark present",
+    "Some cubes touching; detections not reliable"
+  ],
+  "checked_at_unix": 1793627664.4775937
+}

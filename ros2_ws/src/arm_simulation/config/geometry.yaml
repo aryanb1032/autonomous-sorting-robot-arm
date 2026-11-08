@@ -1,0 +1,11 @@
+revision: 2026-11-01-wrist-roll-pitch
+ground_to_motor1: 0.070
+motor1_to_motor2: 0.019
+motor2_to_motor3: 0.12
+motor3_to_motor4: 0.11
+motor4_to_motor5: 0.06
+motor5_to_gripper_motor: 0.1
+gripper_motor_to_tip: 0.07
+finger_pivot_half_spacing: 0.012
+finger_thickness: 0.008
+joint_axes: [z, y, y, z, y]

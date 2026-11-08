@@ -1,0 +1,68 @@
+{
+  "mode": "scripted_attachment_sorting",
+  "vision_used": false,
+  "reinforcement_learning_used": false,
+  "seed": 42,
+  "results": [
+    {
+      "box": "white_box_01",
+      "bin": "white",
+      "position_m": [
+        0.11262869089841843,
+        0.2460152804851532,
+        0.014999978244304657
+      ],
+      "verified": true
+    },
+    {
+      "box": "black_box_01",
+      "bin": "black",
+      "position_m": [
+        0.11489756405353546,
+        -0.28906720876693726,
+        0.014999978244304657
+      ],
+      "verified": true
+    },
+    {
+      "box": "black_box_02",
+      "bin": "black",
+      "position_m": [
+        0.15838302671909332,
+        -0.2881128191947937,
+        0.014999978244304657
+      ],
+      "verified": true
+    },
+    {
+      "box": "white_box_02",
+      "bin": "white",
+      "position_m": [
+        0.15859441459178925,
+        0.24678456783294678,
+        0.014999978244304657
+      ],
+      "verified": true
+    },
+    {
+      "box": "black_box_03",
+      "bin": "black",
+      "position_m": [
+        0.1348992884159088,
+        -0.24424509704113007,
+        0.014999978244304657
+      ],
+      "verified": true
+    },
+    {
+      "box": "white_box_03",
+      "bin": "white",
+      "position_m": [
+        0.13639287650585175,
+        0.28977859020233154,
+        0.01499906089156866
+      ],
+      "verified": true
+    }
+  ]
+}

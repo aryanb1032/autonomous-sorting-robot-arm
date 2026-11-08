@@ -1,0 +1,72 @@
+{
+  "validated": false,
+  "physical_control_enabled": false,
+  "coordinate_frame": "pickup_rectangle_local_image_axes",
+  "plane_height_mm": 0,
+  "image_size": [
+    1280,
+    720
+  ],
+  "corners_raw_px": [
+    [
+      262.0,
+      134.0
+    ],
+    [
+      566.0,
+      165.0
+    ],
+    [
+      521.0,
+      595.0
+    ],
+    [
+      222.0,
+      562.0
+    ]
+  ],
+  "corners_local_mm": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      150.0,
+      0.0
+    ],
+    [
+      150.0,
+      220.0
+    ],
+    [
+      0.0,
+      220.0
+    ]
+  ],
+  "raw_pixel_to_floor_mm": [
+    [
+      0.4923402708776586,
+      0.046013109427818534,
+      -135.1589076332742
+    ],
+    [
+      -0.051184001008017184,
+      0.5019334292399105,
+      -53.848871254047495
+    ],
+    [
+      2.2941364942571167e-05,
+      -3.433830887085745e-05,
+      1.0
+    ]
+  ],
+  "limitations": [
+    "Single image, four manually selected points; no independent validation",
+    "150 mm across short edge and 220 mm across long edge assumed from supplied dimensions",
+    "Lens distortion not corrected",
+    "Floor mapping is not the cube-top plane at 20 mm",
+    "No robot-base origin or heading registered",
+    "Bins cropped; no bin coordinates",
+    "Changes in mount, lens or resolution invalidate this preview"
+  ]
+}

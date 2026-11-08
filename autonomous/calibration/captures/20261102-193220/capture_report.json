@@ -1,0 +1,12 @@
+{
+  "frames_checked": 30,
+  "checkerboard_views_saved": 0,
+  "image_size": [
+    1280,
+    720
+  ],
+  "stream_url": "http://PHONE_IP:4747/video",
+  "reason": "time limit reached",
+  "validated": false,
+  "physical_control_enabled": false
+}

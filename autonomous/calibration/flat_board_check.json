@@ -1,0 +1,36 @@
+{
+  "validated": false,
+  "physical_control_enabled": false,
+  "coordinate_frame": "checkerboard_local",
+  "square_size_mm_assumed_from_print": 25,
+  "frame_is_separate_from_lens_fit": true,
+  "plane_height_above_floor_mm": null,
+  "corners_detected": 35,
+  "fitting_points": 18,
+  "held_out_points": 17,
+  "held_out_max_error_mm": 0.432755191484247,
+  "held_out_rms_error_mm": 0.17960310807857463,
+  "undistorted_pixel_to_board_mm": [
+    [
+      0.4739763898383507,
+      0.03760415272103403,
+      -76.9168527490094
+    ],
+    [
+      -0.026902624769283588,
+      0.4900697603532262,
+      -193.17246154910177
+    ],
+    [
+      -6.87791199106281e-05,
+      3.181175956229909e-05,
+      1.0
+    ]
+  ],
+  "limitations": [
+    "Within-image grid consistency, not independent robot positioning accuracy",
+    "Board placement, orientation and backing thickness not registered to robot",
+    "Cube-top height mapping not established",
+    "Lens model remains provisional"
+  ]
+}

@@ -1,0 +1,4 @@
+{"time": 1793605552.5325606, "phase": "INITIALIZE", "observation_source": "Gazebo ground truth", "physical_control": false, "learning_scope": "sorting order only"}
+{"time": 1793605556.191639, "phase": "SELECT", "object": "black_box_01", "color": "black", "strategy": 1}
+{"time": 1793605556.238063, "phase": "APPROACH"}
+{"time": 1793605557.2953086, "phase": "STOPPED", "reason": "Operator STOP requested"}

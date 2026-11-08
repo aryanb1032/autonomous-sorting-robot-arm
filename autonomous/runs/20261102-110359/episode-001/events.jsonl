@@ -1,0 +1,63 @@
+{"time": 1793597650.5124736, "phase": "INITIALIZE", "observation_source": "Gazebo ground truth", "physical_control": false, "learning_scope": "sorting order only"}
+{"time": 1793597656.721037, "phase": "SELECT", "object": "black_box_01", "color": "black", "strategy": 0}
+{"time": 1793597656.766736, "phase": "APPROACH"}
+{"time": 1793597686.0682583, "phase": "DESCEND"}
+{"time": 1793597694.1163468, "phase": "GRASP", "object": "black_box_01"}
+{"time": 1793597702.9819245, "phase": "LIFT"}
+{"time": 1793597710.8780348, "phase": "TRANSFER"}
+{"time": 1793597731.761619, "phase": "LOWER"}
+{"time": 1793597737.2299798, "phase": "RELEASE", "object": "black_box_01", "bin": "black"}
+{"time": 1793597746.8807502, "phase": "PLACEMENT_VERIFIED", "object": "black_box_01", "bin": "black"}
+{"time": 1793597746.9295676, "phase": "RETREAT"}
+{"time": 1793597752.4150078, "phase": "SELECT", "object": "black_box_02", "color": "black", "strategy": 1}
+{"time": 1793597752.4300518, "phase": "APPROACH"}
+{"time": 1793597776.8866782, "phase": "DESCEND"}
+{"time": 1793597786.9683878, "phase": "GRASP", "object": "black_box_02"}
+{"time": 1793597795.8317995, "phase": "LIFT"}
+{"time": 1793597806.1759796, "phase": "TRANSFER"}
+{"time": 1793597828.6617043, "phase": "LOWER"}
+{"time": 1793597833.6839, "phase": "RELEASE", "object": "black_box_02", "bin": "black"}
+{"time": 1793597843.1463058, "phase": "PLACEMENT_VERIFIED", "object": "black_box_02", "bin": "black"}
+{"time": 1793597843.1643782, "phase": "RETREAT"}
+{"time": 1793597848.4414096, "phase": "SELECT", "object": "white_box_01", "color": "white", "strategy": 0}
+{"time": 1793597848.4613829, "phase": "APPROACH"}
+{"time": 1793597861.6062655, "phase": "DESCEND"}
+{"time": 1793597871.8060944, "phase": "GRASP", "object": "white_box_01"}
+{"time": 1793597880.6691387, "phase": "LIFT"}
+{"time": 1793597891.4989471, "phase": "TRANSFER"}
+{"time": 1793597933.407892, "phase": "LOWER"}
+{"time": 1793597939.2429368, "phase": "RELEASE", "object": "white_box_01", "bin": "white"}
+{"time": 1793597948.7162304, "phase": "PLACEMENT_VERIFIED", "object": "white_box_01", "bin": "white"}
+{"time": 1793597948.7323399, "phase": "RETREAT"}
+{"time": 1793597954.9171264, "phase": "SELECT", "object": "white_box_03", "color": "white", "strategy": 0}
+{"time": 1793597954.935061, "phase": "APPROACH"}
+{"time": 1793597971.2176244, "phase": "DESCEND"}
+{"time": 1793597981.9158864, "phase": "GRASP", "object": "white_box_03"}
+{"time": 1793597990.7821474, "phase": "LIFT"}
+{"time": 1793598001.7885218, "phase": "TRANSFER"}
+{"time": 1793598015.60704, "phase": "LOWER"}
+{"time": 1793598021.169478, "phase": "RELEASE", "object": "white_box_03", "bin": "white"}
+{"time": 1793598030.6683688, "phase": "PLACEMENT_VERIFIED", "object": "white_box_03", "bin": "white"}
+{"time": 1793598030.6933637, "phase": "RETREAT"}
+{"time": 1793598036.3375237, "phase": "SELECT", "object": "black_box_03", "color": "black", "strategy": 1}
+{"time": 1793598036.368466, "phase": "APPROACH"}
+{"time": 1793598055.9238741, "phase": "DESCEND"}
+{"time": 1793598065.4226658, "phase": "GRASP", "object": "black_box_03"}
+{"time": 1793598074.289682, "phase": "LIFT"}
+{"time": 1793598084.0353258, "phase": "TRANSFER"}
+{"time": 1793598118.2954314, "phase": "LOWER"}
+{"time": 1793598124.0762217, "phase": "RELEASE", "object": "black_box_03", "bin": "black"}
+{"time": 1793598133.550023, "phase": "PLACEMENT_VERIFIED", "object": "black_box_03", "bin": "black"}
+{"time": 1793598133.5764816, "phase": "RETREAT"}
+{"time": 1793598139.498841, "phase": "SELECT", "object": "white_box_02", "color": "white", "strategy": 1}
+{"time": 1793598139.513568, "phase": "APPROACH"}
+{"time": 1793598168.1280618, "phase": "DESCEND"}
+{"time": 1793598178.4844239, "phase": "GRASP", "object": "white_box_02"}
+{"time": 1793598187.352691, "phase": "LIFT"}
+{"time": 1793598197.4862287, "phase": "TRANSFER"}
+{"time": 1793598224.6513836, "phase": "LOWER"}
+{"time": 1793598229.6837225, "phase": "RELEASE", "object": "white_box_02", "bin": "white"}
+{"time": 1793598239.1547494, "phase": "PLACEMENT_VERIFIED", "object": "white_box_02", "bin": "white"}
+{"time": 1793598239.186037, "phase": "RETREAT"}
+{"time": 1793598244.6249495, "phase": "HOME"}
+{"time": 1793598272.8655522, "phase": "DONE", "mode": "simulation_only", "observation_source": "Gazebo ground truth", "grasp": "simulated attachment", "sorted": ["black_box_01", "black_box_02", "white_box_01", "white_box_03", "black_box_03", "white_box_02"], "blocked": [], "counts": {"black": 3, "white": 3}, "policy_updates": 9}

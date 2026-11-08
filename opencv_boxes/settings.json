@@ -1,0 +1,11 @@
+{
+  "black_max": 70,
+  "white_min": 180,
+  "white_max_saturation": 65,
+  "min_area_px": 100,
+  "max_area_fraction": 0.35,
+  "min_solidity": 0.92,
+  "expected_side_mm": 20.0,
+  "side_tolerance_mm": 2.0,
+  "roi": null
+}

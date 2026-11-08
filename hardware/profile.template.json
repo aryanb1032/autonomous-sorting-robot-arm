@@ -1,0 +1,147 @@
+{
+  "calibration_confirmed": false,
+  "servo_power_verified": true,
+  "oe_wired_verified": true,
+  "model_verified": false,
+  "workspace_scene_verified": false,
+  "port": null,
+  "servo_rail_voltage": 6.0,
+  "supply_label_voltage": 7.0,
+  "supply_label_current_a": 7.32,
+  "sda": 21,
+  "scl": 22,
+  "oe_pin": 23,
+  "pca_address": 64,
+  "joints": [
+    {
+      "name": "joint_1",
+      "channel": 0,
+      "rad_low": null,
+      "rad_high": null,
+      "pulse_at_low_us": null,
+      "pulse_at_high_us": null,
+      "initial_rad": null,
+      "max_rad_per_sec": null,
+      "servo_model": "DEAO 20 kg-class",
+      "reported_home_degrees": 90,
+      "reported_servo_range_degrees": [
+        0,
+        180
+      ],
+      "reported_pulse_range_us": [
+        500,
+        2500
+      ],
+      "role": "base_rotation"
+    },
+    {
+      "name": "joint_2",
+      "channel": 1,
+      "rad_low": null,
+      "rad_high": null,
+      "pulse_at_low_us": null,
+      "pulse_at_high_us": null,
+      "initial_rad": null,
+      "max_rad_per_sec": null,
+      "servo_model": "DEAO 20 kg-class",
+      "reported_home_degrees": 90,
+      "reported_servo_range_degrees": [
+        0,
+        180
+      ],
+      "reported_pulse_range_us": [
+        500,
+        2500
+      ],
+      "role": "shoulder_pitch"
+    },
+    {
+      "name": "joint_3",
+      "channel": 2,
+      "rad_low": null,
+      "rad_high": null,
+      "pulse_at_low_us": null,
+      "pulse_at_high_us": null,
+      "initial_rad": null,
+      "max_rad_per_sec": null,
+      "servo_model": "DEAO 20 kg-class",
+      "reported_home_degrees": 90,
+      "reported_servo_range_degrees": [
+        0,
+        180
+      ],
+      "reported_pulse_range_us": [
+        500,
+        2500
+      ],
+      "role": "elbow_pitch"
+    },
+    {
+      "name": "joint_4",
+      "channel": 5,
+      "rad_low": null,
+      "rad_high": null,
+      "pulse_at_low_us": null,
+      "pulse_at_high_us": null,
+      "initial_rad": null,
+      "max_rad_per_sec": null,
+      "servo_model": "MG996R",
+      "reported_home_degrees": 90,
+      "reported_servo_range_degrees": [
+        0,
+        180
+      ],
+      "reported_pulse_range_us": [
+        500,
+        2500
+      ],
+      "role": "wrist_rotation"
+    },
+    {
+      "name": "joint_5",
+      "channel": 6,
+      "rad_low": null,
+      "rad_high": null,
+      "pulse_at_low_us": null,
+      "pulse_at_high_us": null,
+      "initial_rad": null,
+      "max_rad_per_sec": null,
+      "servo_model": "MG996R",
+      "reported_home_degrees": 90,
+      "reported_servo_range_degrees": [
+        0,
+        180
+      ],
+      "reported_pulse_range_us": [
+        500,
+        2500
+      ],
+      "role": "wrist_pitch"
+    },
+    {
+      "name": "gripper_joint",
+      "channel": 7,
+      "rad_low": null,
+      "rad_high": null,
+      "pulse_at_low_us": null,
+      "pulse_at_high_us": null,
+      "initial_rad": null,
+      "max_rad_per_sec": null,
+      "servo_model": "MG996R",
+      "reported_home_degrees": 90,
+      "reported_servo_range_degrees": [
+        0,
+        180
+      ],
+      "reported_pulse_range_us": [
+        1200,
+        2600
+      ],
+      "role": "gripper"
+    }
+  ],
+  "gripper_width_table": null,
+  "geometry_revision": "2026-11-01-wrist-roll-pitch",
+  "gripper_model": "mirrored_hinge_proxy",
+  "gripper_finger_length_m": 0.07
+}

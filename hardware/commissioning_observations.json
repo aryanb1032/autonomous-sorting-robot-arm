@@ -1,0 +1,50 @@
+{
+  "channel_order_verified_by_user": true,
+  "trial": "90 -> 95 -> 90, each channel separately",
+  "user_observation": "All motors working perfectly, in order",
+  "channels": {
+    "base": 0,
+    "shoulder": 1,
+    "elbow": 2,
+    "wrist_rotation": 5,
+    "wrist_pitch": 6,
+    "gripper": 7
+  },
+  "reported_servo_rail_voltage": 6.0,
+  "reported_logic_voltage": 3.3,
+  "joint_angle_mapping_verified": false,
+  "safe_joint_limits_verified": false,
+  "physical_sorting_ready": false,
+  "note": "Motor trial is open-loop. No encoder or real pose measurement. Do not infer URDF zero from servo 90 degrees.",
+  "upright_home_confirmed_by_user": true,
+  "arm_servo_home_degrees": 90,
+  "gripper_servo_home_degrees": 80,
+  "ground_to_base_axis_m": 0.07,
+  "trial_scope": "No boxes; joint direction and motion commissioning",
+  "geometry_revision": "2026-11-01-wrist-roll-pitch",
+  "direction_observations": {
+    "M1": "anticlockwise viewed above, servo increasing",
+    "M2": "right in marked photo, servo increasing",
+    "M3": "left in marked photo, servo increasing",
+    "M4": "spin anticlockwise viewed above at upright home, servo increasing",
+    "M5": "left in marked photo, servo increasing",
+    "M6": "clockwise, servo decreasing"
+  },
+  "coordinate_convention": "Model +X is photo-left bending direction; +Z upward. Base heading reference chosen at observed upright home.",
+  "reported_arm_servo_limits_degrees": [
+    0,
+    180
+  ],
+  "reported_gripper_servo_limits_degrees": [
+    0,
+    80
+  ],
+  "arm_servo_to_model_signs": [
+    1,
+    -1,
+    1,
+    1,
+    1
+  ],
+  "mapping_basis": "User-observed directions; nominal direct-drive angle scale; not encoder measured."
+}
