@@ -41,6 +41,7 @@ The simulator uses Gazebo object ground truth and simulated grasp attachments. I
 - `autonomous/` — simulation runner, learning policy, vision contract and calibration code
 - `opencv_boxes/` — OpenCV colour/shape detection and camera scripts
 - `firmware/` — ESP32/PCA9685 firmware and required library sources
+- `hardware/stl/` — the owner-provided arm and gripper STL parts
 - `live_trial/` — physical serial mirror utilities and target-planning helpers
 - `model/`, `sorting/`, `reinforcement_learning/` — geometry, layouts and learning experiments
 - `docs/` — project report, resume summary, and architecture notes
